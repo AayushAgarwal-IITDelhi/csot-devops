@@ -1,0 +1,10 @@
+[Unit]
+Description= timer for 07
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=1min
+Unit=07.service
+
+[Install]
+WantedBy=timers.target

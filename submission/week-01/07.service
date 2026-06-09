@@ -1,0 +1,6 @@
+[Unit]
+Description= blah
+
+[Service]
+Type=oneshot
+ExecStart=/bin/echo "Hello World"
